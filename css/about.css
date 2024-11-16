@@ -1,0 +1,113 @@
+body {
+  height: 100vw;
+  background: linear-gradient(141deg, #000000 0%, #696969 51%, #e4e4e4 75%);
+}
+
+
+
+h1 {
+    margin-left: 7vw;
+    color: white;
+    font-size: 4.6vw;
+}
+
+.comment {
+	color: grey;
+    margin-left: 7vw;
+    position: relative; 
+    top: -1vw;
+	font-size: 1.5vw;
+}
+
+.txt {
+	color: white;
+	font-size: 2.5vw;
+	margin: 6vw;
+}
+
+.txt2 {
+  color: rgb(0, 0, 0);
+  font-size: 2.5vw;
+  margin: 9vw;
+}
+
+a:link {
+	color: #22ff00;
+	background-color: transparent;
+	text-decoration: none; 
+}
+a:visited {
+	color: #22ff00;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+
+
+
+
+
+#myProgress {
+	width: 100%;
+	background-color: #ddd;
+  }
+  
+  #myBar {
+	width: 0%;
+	height: 3vw;
+	background-color: #04AA6D;
+	text-align: center;
+	line-height: 3vw;
+	color: white;
+  }
+
+
+
+
+
+
+
+
+
+  .button {
+	background-color: #04AA6D;
+	border: none;
+	color: white;
+	padding: 1vw 2.5vw;
+	text-align: center;
+	display: inline-block;
+	font-size: 2vw;
+	margin: 0.6vw 0.2vw;
+	cursor: pointer;
+	transition-duration: 0.4s;
+	border-radius:1vw;
+  }
+
+.button:hover {
+  box-shadow: 0 1vw 6vw 0 rgba(21, 255, 0, 0.24), 0 0.1vw 0.4vw 0 rgba(0, 108, 11, 0.19);
+}
+
+
+
+.button_top {
+	padding: 0.8vw 0.8vw; /* Vertical / Horizontal */
+	text-align: center;
+	font-size: 1.4vw;
+	margin: 0.6vw 0.2vw;
+	cursor: pointer;
+	border-radius: 0.3vw;
+	border: outset;
+	position: fixed;
+	z-index: 99;
+	bottom: 1.5vw;
+	right: 1.5vw;
+  }
+  
+  .para2 {
+	color: white;
+	text-align: left;
+	margin: 0vw;
+	margin-top: -1vw;
+	font-size: 1.4vw;
+	display: inline-block;
+  }

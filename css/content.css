@@ -1,0 +1,43 @@
+h1 {
+    margin-left: 7vw;
+    color: white;
+    font-size: 4.6vw;
+}
+
+.Indoctrination {
+	color: grey;
+    margin-left: 7vw;
+    position: relative; 
+    top: -2.5vw;
+	font-size: 1.5vw;
+}
+
+h2 {
+	color: white;
+	margin-left: 3vw;
+}
+
+.liste1 {
+	font-size: 2.2vw;;
+	color: white;
+	margin-left: 4vw;
+	list-style-type: decimal;
+}
+
+.liste2 {
+	font-size: 2.2vw;
+	color: white;
+	list-style-type: square;
+	margin-left: 4vw;
+}
+
+a:link {
+	color: #887eff;
+	background-color: transparent;
+	text-decoration: none; 
+}
+a:visited {
+	color: #887eff;
+	background-color: transparent;
+	text-decoration: none;
+}
